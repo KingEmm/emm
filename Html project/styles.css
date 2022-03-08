@@ -1,0 +1,49 @@
+.head {
+    background: url('/bg.jpg') transparent;
+    background-size: cover;
+    /* width: 100%; */
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3{
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.bot {
+    color: chartreuse;
+    background: purple;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+}
+
+.bot:hover{
+    cursor: pointer;
+    color: green;
+    background: yellow;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+a{
+    text-align: center;
+}
+
+.but{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    background: pink;
+    border-radius: 30px;
+    padding: 9px;
+}
